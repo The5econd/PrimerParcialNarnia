@@ -1,0 +1,67 @@
+package parcialpoo1;
+
+/**
+ *
+ * @author Javier
+ */
+public class Reservacion {
+    
+    public String infoHuesped;
+    public int numeroHabitacion;
+    public int diasReservacion;
+    public double costoNoche;
+    public double costoTotal;
+    public int paquete;
+
+    public String getInfoHuesped() {
+        return infoHuesped;
+    }
+
+    public void setInfoHuesped(String infoHuesped) {
+        this.infoHuesped = infoHuesped;
+    }
+
+    public int getNumeroHabitacion() {
+        return numeroHabitacion;
+    }
+
+    public void setNumeroHabitacion(int numeroHabitacion) {
+        this.numeroHabitacion = numeroHabitacion;
+    }
+
+    public int getDiasReservacion() {
+        return diasReservacion;
+    }
+
+    public void setDiasReservacion(int diasReservacion) {
+        this.diasReservacion = diasReservacion;
+    }
+
+    public double getCostoNoche() {
+        return costoNoche;
+    }
+
+    public void setCostoNoche(double costoNoche) {
+        this.costoNoche = costoNoche;
+    }
+
+    public double getCostoTotal() {
+        return costoTotal;
+    }
+
+    public void setCostoTotal(double costoTotal) {
+        this.costoTotal = costoTotal;
+    }
+
+    public int getPaquete() {
+        return paquete;
+    }
+
+    public void setPaquete(int paquete) {
+        this.paquete = paquete;
+    }
+    
+    public Reservacion() {
+    }
+
+}
