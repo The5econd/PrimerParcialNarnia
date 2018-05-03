@@ -64,4 +64,13 @@ public class Reservacion {
     public Reservacion() {
     }
 
+    public Reservacion(String infoHuesped, int numeroHabitacion, int diasReservacion, double costoNoche, double costoTotal, int paquete) {
+        this.infoHuesped = infoHuesped;
+        this.numeroHabitacion = numeroHabitacion;
+        this.diasReservacion = diasReservacion;
+        this.costoNoche = costoNoche;
+        this.costoTotal = costoTotal;
+        this.paquete = paquete;
+    }
+
 }
