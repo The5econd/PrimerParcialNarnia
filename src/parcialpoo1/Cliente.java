@@ -4,6 +4,9 @@
  * and open the template in the editor.
  */
 package parcialpoo1;
+import java.util.ArrayList;
+
+
 
 /**
  *
@@ -24,6 +27,7 @@ public class Cliente {
         this.TotalHabitaciones = TotalHabitaciones;
     }
     
+
     
     public String getDui() {
         return Dui;
@@ -84,5 +88,5 @@ public class Cliente {
     String Dui, infoCliente, nombre, apellido, tarjetaCredito, telefono;
     int TotalHabitaciones;
     
-    
+
 }
