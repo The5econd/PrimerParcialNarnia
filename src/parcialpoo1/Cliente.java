@@ -84,11 +84,5 @@ public class Cliente {
     String Dui, infoCliente, nombre, apellido, tarjetaCredito, telefono;
     int TotalHabitaciones;
     
-    public void deseManco(){
-        System.out.println("dese");
-    }
-    public void deseManco2(){
-        System.out.println("dese");
-    }
     
 }
