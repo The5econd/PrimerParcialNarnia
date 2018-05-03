@@ -13,6 +13,15 @@ public class Habitacion {
     private String piso;
     private int numero;
     private double precioHabitacion;
+
+    public boolean isEstado() {
+        return estado;
+    }
+
+    public void setEstado(boolean estado) {
+        this.estado = estado;
+    }
+    boolean estado;
     
     public Habitacion(){}
     
