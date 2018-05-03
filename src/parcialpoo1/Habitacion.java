@@ -10,6 +10,7 @@ package parcialpoo1;
  * @author thesecond
  */
 public class Habitacion {
+   
     private String piso;
     private int numero;
     private double precioHabitacion;
@@ -51,5 +52,5 @@ public class Habitacion {
     public void setPrecioHab(double PrecioHab){
         this.precioHabitacion=PrecioHab;
     }
-    //DESE SOS UNA PUTA!!!!
+    
 }
